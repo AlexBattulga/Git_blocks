@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:monospace;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    background: #DDDFD5;
+    padding: 15px;
+}
+header{
+    background: #5daeac;
+    padding: 0 10px 10px 10px;
+}
+header img{
+    width: 35px;
+    display: inline-block;
+    background-color: #5daeac;
+    position: relative;
+    top: 8px;
+}
+header h1{
+    font-weight: 500;
+    display: inline-block;
+    width: 260px;
+}
+.nav-list{
+    display: inline-block;
+}
+.nav-list ul li{
+    text-decoration: underline;
+    color: #fff;
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+}
+/* ==== Main content ====*/
+.main{
+    background: #F7E79C;
+    margin-top: 15px;
+    padding: 15px 0 15px 15px;
+    color: #DDDFD5;
+}
+.side-bar{
+    background: #213E43;
+    padding: 10px;
+    display: inline-block;
+    width: 230px;
+}
+.side-bar h2{
+    padding-bottom: 20px;
+}
+.side-bar p{
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+/* ==== right side ====*/
+.right-side-content{
+    width: 640px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+}
+.right-side-content h3{
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.right-side-content p{
+    padding-left: 10px;
+}
+.right-side-content span{
+    color: #5daeac;
+}
+.right-top .left{
+    background: #213E43;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 10px 0 8px;
+    margin: 0 40px 30px 0;
+}
+
+.right-top .middle{
+    background: #213E43;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    padding: 8px 10px 0 8px;
+    margin: 0 40px 30px 0;
+}
+.right-top .right{
+    background: #213E43;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 10px 0 8px;
+    margin: 0 40px 30px 0;
+}
+.right-middle{
+    display: inline-block;
+}
+.middle-left{
+    width: 260px;
+    height: 100px;
+    background:#213E43;
+    display: inline-block;
+    padding: 8px 10px 10px 8px;
+    margin: 0 35px 30px 0;
+}
+.middle-right{
+    width: 260px;
+    height: 100px;
+    background: #213E43;
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 10px 10px 8px;
+    margin-bottom: 30px;
+}
+.middle-bottom{
+    width: 580px;
+    height: 107px;
+    background: #213E43;
+    display: inline-block;
+    padding: 8px 10px 10px 8px;
+    margin: 0 40px 30px 0;
+}
+/*==== footer =====*/
+footer{
+    background: #5DAEAC;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 6px;
+}
